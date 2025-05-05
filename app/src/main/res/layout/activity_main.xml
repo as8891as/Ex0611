@@ -35,24 +35,28 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:checked="true"
+            android:onClick="AutomaticChange"
             android:text="White" />
 
         <RadioButton
             android:id="@+id/rB2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:onClick="AutomaticChange"
             android:text="Red" />
 
         <RadioButton
             android:id="@+id/rB3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:onClick="AutomaticChange"
             android:text="Green" />
 
         <RadioButton
             android:id="@+id/rB4"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:onClick="AutomaticChange"
             android:text="Blue" />
     </RadioGroup>
 

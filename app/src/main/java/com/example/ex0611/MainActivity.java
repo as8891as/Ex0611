@@ -51,4 +51,26 @@ public class MainActivity extends AppCompatActivity {
             }
         }
     }
+
+    public void AutomaticChange(View view) {
+        if (sw.isChecked())
+        {
+            if (rB1.isChecked())
+            {
+                cL.setBackgroundColor(Color.WHITE);
+            }
+            else if (rB2.isChecked())
+            {
+                cL.setBackgroundColor(Color.RED);
+            }
+            else if (rB3.isChecked())
+            {
+                cL.setBackgroundColor(Color.GREEN);
+            }
+            else
+            {
+                cL.setBackgroundColor(Color.BLUE);
+            }
+        }
+    }
 }
